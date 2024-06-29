@@ -4,7 +4,7 @@
   "workbench.enableExperiments": false,
   "security.workspace.trust.untrustedFiles": "open",
   "[css]": {
-    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -15,8 +15,12 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.userWords": ["musa"],
-  "settingsSync.ignoredSettings": ["-php.validate.executablePath"],
+  "cSpell.userWords": [
+    "musa"
+  ],
+  "settingsSync.ignoredSettings": [
+    "-php.validate.executablePath"
+  ],
   "atomKeymap.promptV3Features": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": true,
@@ -25,10 +29,9 @@
     "es": true
   },
   "workbench.startupEditor": "none",
-  "window.zoomLevel": 2,
   "window.confirmBeforeClose": "always",
   // cursor
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
   // editor
   "editor.fontSize": 14,
@@ -36,5 +39,9 @@
     "editor.defaultFormatter": "vscode.json-language-features"
     // "editor.defaultFormatter": ""
   },
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1
 }
